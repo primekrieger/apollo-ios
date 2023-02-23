@@ -1,6 +1,6 @@
 #if !COCOAPODS
-import Apollo
-import ApolloUtils
+import ApolloLegacy
+import ApolloUtilsLegacy
 #endif
 import Foundation
 

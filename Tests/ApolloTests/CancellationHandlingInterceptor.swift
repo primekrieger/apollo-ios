@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Apollo
+import ApolloLegacy
 
 class CancellationHandlingInterceptor: ApolloInterceptor, Cancellable {
   private(set) var hasBeenCancelled = false

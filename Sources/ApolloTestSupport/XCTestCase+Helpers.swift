@@ -1,5 +1,5 @@
 import XCTest
-import ApolloUtils
+import ApolloUtilsLegacy
 
 extension ApolloExtension where Base: XCTestExpectation {
   /// Private API for accessing the number of times an expectation has been fulfilled.
@@ -43,7 +43,7 @@ public extension XCTestCase {
   }
 }
 
-@testable import Apollo
+@testable import ApolloLegacy
 
 public extension XCTestCase {
   /// Make  an `AsyncResultObserver` for receiving results of the specified GraphQL operation.

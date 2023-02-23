@@ -1,5 +1,5 @@
 import XCTest
-@testable import Apollo
+@testable import ApolloLegacy
 @testable import ApolloSQLite
 import ApolloTestSupport
 import StarWarsAPI

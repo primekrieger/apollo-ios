@@ -1,5 +1,5 @@
 #if !COCOAPODS
-import Apollo
+import ApolloLegacy
 #endif
 import Foundation
 

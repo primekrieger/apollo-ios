@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import Apollo
+import ApolloLegacy
 import ApolloTestSupport
 
 class MultipartFormDataTests: XCTestCase {

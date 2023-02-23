@@ -1,5 +1,5 @@
 import XCTest
-@testable import Apollo
+@testable import ApolloLegacy
 #if canImport(ApolloSQLite)
 import ApolloSQLite
 #endif

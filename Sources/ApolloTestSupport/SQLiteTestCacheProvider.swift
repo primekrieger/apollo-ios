@@ -1,5 +1,5 @@
 import Foundation
-import Apollo
+import ApolloLegacy
 import ApolloSQLite
 
 public class SQLiteTestCacheProvider: TestCacheProvider {

@@ -2,7 +2,7 @@ import XCTest
 @testable import ApolloWebSocket
 import ApolloTestSupport
 import Nimble
-import Apollo
+import ApolloLegacy
 import SubscriptionAPI
 
 class WSProtocolTestsBase: XCTestCase {

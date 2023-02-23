@@ -1,6 +1,6 @@
 import Foundation
 #if !COCOAPODS
-import ApolloUtils
+import ApolloUtilsLegacy
 #endif
 
 public protocol OperationMessageIdCreator {

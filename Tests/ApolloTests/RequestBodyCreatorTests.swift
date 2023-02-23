@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import Apollo
+@testable import ApolloLegacy
 import StarWarsAPI
 import UploadAPI
 

@@ -1,5 +1,5 @@
 import XCTest
-@testable import Apollo
+@testable import ApolloLegacy
 import Nimble
 
 class ResponsePathTests: XCTestCase {

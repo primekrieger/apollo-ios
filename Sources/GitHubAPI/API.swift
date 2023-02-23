@@ -1,7 +1,7 @@
 // @generated
 //  This file was automatically generated and should not be edited.
 
-import Apollo
+import ApolloLegacy
 import Foundation
 
 public final class IssuesAndCommentsForRepositoryQuery: GraphQLQuery {
