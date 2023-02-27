@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9B7BDA7C23FDE90400ACD198"
-               BuildableName = "ApolloWebSocket.framework"
-               BlueprintName = "ApolloWebSocket"
-               ReferencedContainer = "container:Apollo.xcodeproj">
+               BlueprintIdentifier = "9FC750431D2A532C00458D91"
+               BuildableName = "ApolloLegacy.framework"
+               BlueprintName = "ApolloLegacy"
+               ReferencedContainer = "container:ApolloLegacy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -30,6 +30,15 @@
       enableThreadSanitizer = "YES"
       codeCoverageEnabled = "YES"
       onlyGenerateCoverageForSpecifiedTargets = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9FC750431D2A532C00458D91"
+            BuildableName = "ApolloLegacy.framework"
+            BlueprintName = "ApolloLegacy"
+            ReferencedContainer = "container:ApolloLegacy.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "APOLLO_TEST_CACHE_PROVIDER"
@@ -40,16 +49,25 @@
       <CodeCoverageTargets>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9B7BDA7C23FDE90400ACD198"
-            BuildableName = "ApolloWebSocket.framework"
-            BlueprintName = "ApolloWebSocket"
-            ReferencedContainer = "container:Apollo.xcodeproj">
+            BlueprintIdentifier = "9FC750431D2A532C00458D91"
+            BuildableName = "ApolloLegacy.framework"
+            BlueprintName = "ApolloLegacy"
+            ReferencedContainer = "container:ApolloLegacy.xcodeproj">
          </BuildableReference>
       </CodeCoverageTargets>
       <TestPlans>
          <TestPlanReference
             reference = "container:Tests/TestPlans/Apollo-UnitTestPlan.xctestplan"
             default = "YES">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:Tests/TestPlans/Apollo-IntegrationTestPlan.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:Tests/TestPlans/Apollo-PerformanceTestPlan.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:Tests/TestPlans/Apollo-CITestPlan.xctestplan">
          </TestPlanReference>
       </TestPlans>
    </TestAction>
@@ -63,6 +81,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9FC750431D2A532C00458D91"
+            BuildableName = "ApolloLegacy.framework"
+            BlueprintName = "ApolloLegacy"
+            ReferencedContainer = "container:ApolloLegacy.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -73,10 +100,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9B7BDA7C23FDE90400ACD198"
-            BuildableName = "ApolloWebSocket.framework"
-            BlueprintName = "ApolloWebSocket"
-            ReferencedContainer = "container:Apollo.xcodeproj">
+            BlueprintIdentifier = "9FC750431D2A532C00458D91"
+            BuildableName = "ApolloLegacy.framework"
+            BlueprintName = "ApolloLegacy"
+            ReferencedContainer = "container:ApolloLegacy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

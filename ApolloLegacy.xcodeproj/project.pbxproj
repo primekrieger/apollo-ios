@@ -2373,7 +2373,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9FC7503E1D2A532C00458D91 /* Build configuration list for PBXProject "Apollo" */;
+			buildConfigurationList = 9FC7503E1D2A532C00458D91 /* Build configuration list for PBXProject "ApolloLegacy" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -3536,7 +3536,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9FC7503E1D2A532C00458D91 /* Build configuration list for PBXProject "Apollo" */ = {
+		9FC7503E1D2A532C00458D91 /* Build configuration list for PBXProject "ApolloLegacy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9FC750561D2A532D00458D91 /* Debug */,
